@@ -1,3 +1,3 @@
 class TodoList < ApplicationRecord
-    has_many :todos_items
+    has_many :todo_items
 end
