@@ -1,5 +1,6 @@
 <%= form_for @todo_list do |f| %>
     <%= f.text_field :title, placeholder: "New Todo" %>
     <%= f.text_field :description, placeholder: "description" %>
+    <%= f.input :completed %>
     <%= f.submit %>
 <% end %>
